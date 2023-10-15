@@ -67,24 +67,24 @@ _The working and purpose of all three are listed below:_
 
 - 2. [**functions.py:**](https://github.com/saadharoon27/WhatsApp-Chat-Analysis-WebApp-Project-On-Python/blob/3dc092694a95d3d8f74cb0afdfab770f13a43027/functions.py) The file consists of a collection of Python functions for *analyzing* and *visualizing* chat message data. <br>
 
-**Below is a summary of each function:**
+  **Below is a summary of each function:**
 
-  - **`fetch_stats(selected_user, df)`:** Returns statistics based on the selected user and DataFrame. Calculates the number of *messages*, *total words*, *media messages*, and *links*.
+    - **`fetch_stats(selected_user, df)`:** Returns statistics based on the selected user and DataFrame. Calculates the number of *messages*, *total words*, *media messages*, and *links*.
 
-  - **`most_busy_users(df)`:** Finds the most active users based on the number of *messages* sent. Returns a count of messages sent by each user and their percentages.
-
-  - **`create_wordcloud(selected_user, df)`:** Generates a Word Cloud visualization of text messages. Filters out *filler words* for better visualization.
-
-  - **`most_common_words(selected_user, df)`:** Finds the most common words in text messages. Filters out *filler words* for accurate results.
-
-  - **`emoji_helper(selected_user, df)`:** Extracts and counts *emojis* used in messages. Returns a DataFrame with *emoji counts*.
-
-  - **`monthly_timeline(selected_user, df)`:** Creates a monthly timeline of message counts. Groups messages by year and month.
-
-  - **`daily_timeline(selected_user, df)`:** Creates a daily timeline of message counts. Groups messages by date.
-
-  - **`week_activity_map(selected_user, df)`:** Generates a *weekly activity map*. Counts the number of messages for each day of the week.
-
-  - **`month_activity_map(selected_user, df)`:** Creates a *monthly activity map*. Counts the number of messages for each month.
-
-  - **`activity_heatmap(selected_user, df)`:** Generates an *activity heatmap*. Displays message counts by day and time period (hour).
+    - **`most_busy_users(df)`:** Finds the most active users based on the number of *messages* sent. Returns a count of messages sent by each user and their percentages.
+  
+    - **`create_wordcloud(selected_user, df)`:** Generates a Word Cloud visualization of text messages. Filters out *filler words* for better visualization.
+  
+    - **`most_common_words(selected_user, df)`:** Finds the most common words in text messages. Filters out *filler words* for accurate results.
+  
+    - **`emoji_helper(selected_user, df)`:** Extracts and counts *emojis* used in messages. Returns a DataFrame with *emoji counts*.
+  
+    - **`monthly_timeline(selected_user, df)`:** Creates a monthly timeline of message counts. Groups messages by year and month.
+  
+    - **`daily_timeline(selected_user, df)`:** Creates a daily timeline of message counts. Groups messages by date.
+  
+    - **`week_activity_map(selected_user, df)`:** Generates a *weekly activity map*. Counts the number of messages for each day of the week.
+  
+    - **`month_activity_map(selected_user, df)`:** Creates a *monthly activity map*. Counts the number of messages for each month.
+  
+    - **`activity_heatmap(selected_user, df)`:** Generates an *activity heatmap*. Displays message counts by day and time period (hour).
